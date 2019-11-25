@@ -4,13 +4,13 @@ import BodyComponent from './Body'
 import theme from './common/theme'
 
 const WrapperGlobalStyled = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Lato');
   html,
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 17px;
     background-color: ${theme.colors.white_2};
   }
@@ -18,7 +18,7 @@ const WrapperGlobalStyled = createGlobalStyle`
 
 export default function GlobalStyled({ children }) {
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={theme}>
       <React.Fragment>
         <WrapperGlobalStyled />
         <BodyComponent>{children}</BodyComponent>

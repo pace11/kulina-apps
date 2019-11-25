@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Kulina",
+            "address": "Jl. Tulodong Atas No.28, RT.6/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190"
+        },
+        {
+            "id": 2,
+            "name": "Pancoran Riverside Appartment",
+            "address": "RT.6/RW.2, Pengadegan, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12770"
+        },
+        {
+            "id": 3,
+            "name": "Jalan Tulodong Atas 28",
+            "address": "RT.6/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190"
+        },
+        {
+            "id": 4,
+            "name": "Block 71 Jakarta",
+            "address": "Ariobimo Sentral, South Jakarta, RT.9/RW.4, East Kuningan, Jakarta, 12950" 
+        }
+    ]
+}

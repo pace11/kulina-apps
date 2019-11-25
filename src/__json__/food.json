@@ -1,0 +1,68 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "name" : "Nasi Bakar Ikan Tongkol",
+            "image_url": "https://kln.imgix.net/production/img/nasi-bakar-ikan-tongkol.jpg?w=600",
+            "provide_by" : "Kulina",
+            "rating": 4,
+            "price": 20000
+        },
+        {
+            "id": "2",
+            "name" : "Chicken Mala & Capcay",
+            "image_url": "https://kln.imgix.net/production/img/chicken-mala-capcay.jpg?w=600",
+            "provide_by" : "Kulina",
+            "rating": 5,
+            "price": 35000
+        },
+        {
+            "id": "3",
+            "name" : "Sapi Kailan",
+            "image_url": "https://kln.imgix.net/production/img/sapi-kailan-tahu-lada-garam.jpg?w=600",
+            "provide_by" : "Kulina",
+            "rating": 4,
+            "price": 35000
+        },
+        {
+            "id": "4",
+            "name" : "Grilled Chicken Teriyaki Pasta",
+            "image_url": "https://kln.imgix.net/production/img/grilled-chicken-teriyaki-pasta-2.jpg?w=600",
+            "provide_by" : "Kulina",
+            "rating": 4,
+            "price": 35000
+        },
+        {
+            "id": "5",
+            "name" : "Nasi Chicken Salted Egg",
+            "image_url": "https://kln.imgix.net/production/img/nasi-daun-jeruk-dan-chicken-salted-egg.jpeg?w=600",
+            "provide_by" : "Kulina",
+            "rating": 4,
+            "price": 20000
+        },
+        {
+            "id": "6",
+            "name" : "Gindara Teriyaki with Baked Potato Wedges and Sauteed Veggies",
+            "image_url": "https://kln.imgix.net/production/img/gindara-teriyaki-with-baked-potato-wedges-and-sauteed-veggies-1.jpg?w=600",
+            "provide_by" : "Kulina",
+            "rating": 5,
+            "price": 50000
+        },
+        {
+            "id": "7",
+            "name" : "Baked Dory Fish with Sweet and Sour Sauce and Sauteed Broccoli with Corn",
+            "image_url": "https://kln.imgix.net/production/img/baked-dory-fish-with-sweet-and-sour-sauce-and-sauteed-broccoli-with-corn-1.jpg?w=600",
+            "provide_by" : "Kulina",
+            "rating": 4,
+            "price": 50000
+        },
+        {
+            "id": "8",
+            "name" : "Sesame Noodle Bowl",
+            "image_url": "https://kln.imgix.net/production/img/sesame-noodle-bowl.jpg?w=600",
+            "provide_by" : "Kulina",
+            "rating": 5,
+            "price": 50000
+        }
+    ]
+}
