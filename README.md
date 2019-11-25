@@ -20,5 +20,4 @@
 |------------|------------------------------------|
 | start | run server with mode development |
 | build | build assets with production mode |
-| test | run test |
 | start-server | run server with mode production |
