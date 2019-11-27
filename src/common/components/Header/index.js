@@ -6,8 +6,9 @@ import theme from '../../theme'
 const StyledHeader = styled.div`
   display: flex;
   top: 0;
+  left: 0;
+  right: 0;
   flex-direction: row;
-  width: 100%;
   z-index: 999;
   position: fixed;
   background-color: ${theme.colors.pink};

@@ -27,6 +27,7 @@ function Button({
   padding,
   height,
   children,
+  onClick,
 }) {
   return (
     <StyledButton
@@ -34,6 +35,7 @@ function Button({
       fontSize={fontSize}
       padding={padding}
       height={height}
+      onClick={onClick}
     >
       {children}
     </StyledButton>
@@ -45,6 +47,7 @@ Button.defaultProps = {
   fontSize: '12pt',
   height: '40px',
   padding: '0.1rem 1.5rem',
+  onClick: null,
 }
 
 export default Button

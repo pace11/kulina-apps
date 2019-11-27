@@ -57,6 +57,7 @@ function Card({
   providedBy,
   typeFood,
   price,
+  onClick,
 }) {
   return (
     <StyledCard>
@@ -68,7 +69,7 @@ function Card({
       </StyledProvided>
       <StyledFooter>
         <StyledPrice>{Currency('Rp', `${price}`)}</StyledPrice>
-        <Button>Add +</Button>
+        <Button onClick={onClick}>Add +</Button>
       </StyledFooter>
     </StyledCard>
   )
@@ -81,6 +82,7 @@ Card.defaultProps = {
   providedBy: 'Kulina',
   typeFood: 'Lunch',
   price: 50000,
+  onClick: null,
 }
 
 export default Card
