@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Rating from '../../components/Rating'
+import Button from '../../components/Button'
 import Currency from '../../../lib/currency'
 import theme from '../../theme'
 
@@ -9,7 +11,7 @@ const StyledCard = styled.div`
   width: auto;
   margin: 8px;
   border-radius: 5px;
-  box-shadow: 2px 2px 30px -20px #000000;
+  box-shadow: 0px 8px 10px 0px rgba(10, 31, 68, 0.1);
 `
 
 const StyledImage = styled.div`
@@ -20,13 +22,6 @@ const StyledImage = styled.div`
   border-radius: 5px 5px 0px 0px;
   background-color: grey;
   overflow: hidden;
-`
-
-const StyledRating = styled.div`
-  padding: 8px;
-  height: auto;
-  font-size: 12pt;
-  color: ${theme.colors.gray_alt};
 `
 
 const StyledTitle = styled.div`
@@ -55,25 +50,6 @@ const StyledPrice = styled.h3`
   color: ${theme.colors.gray_alt};
 `
 
-const StyledButton = styled.button`
-  border: none;
-  outline: none;
-  margin: 24px 16px 0px 0px;
-  padding: 0.1rem 1.5rem;
-  height: 40px;
-  color: ${theme.colors.white_2};
-  text-transform: uppercase;
-  font-size: 12pt;
-  border-radius: 5px;
-  background-color: ${theme.colors.pink};
-  :active {
-    opacity: 0.7;
-  }
-  :hover {
-    cursor: pointer;
-  }
-`
-
 function Card({
   imageUrl,
   rating,
@@ -85,14 +61,14 @@ function Card({
   return (
     <StyledCard>
       <StyledImage imageUrl={imageUrl} />
-      <StyledRating>{rating}</StyledRating>
+      <Rating rating={rating} />
       <StyledTitle>{name}</StyledTitle>
       <StyledProvided>
         by {providedBy} . Uptown {typeFood}{' '}
       </StyledProvided>
       <StyledFooter>
         <StyledPrice>{Currency('Rp', `${price}`)}</StyledPrice>
-        <StyledButton>Add +</StyledButton>
+        <Button>Add +</Button>
       </StyledFooter>
     </StyledCard>
   )

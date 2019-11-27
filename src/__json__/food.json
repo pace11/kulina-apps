@@ -21,7 +21,7 @@
             "name" : "Sapi Kailan",
             "image_url": "https://kln.imgix.net/production/img/sapi-kailan-tahu-lada-garam.jpg?w=600",
             "provide_by" : "Kulina",
-            "rating": 4,
+            "rating": 3,
             "price": 35000
         },
         {
@@ -53,7 +53,7 @@
             "name" : "Baked Dory Fish with Sweet and Sour Sauce and Sauteed Broccoli with Corn",
             "image_url": "https://kln.imgix.net/production/img/baked-dory-fish-with-sweet-and-sour-sauce-and-sauteed-broccoli-with-corn-1.jpg?w=600",
             "provide_by" : "Kulina",
-            "rating": 4,
+            "rating": 2,
             "price": 50000
         },
         {
