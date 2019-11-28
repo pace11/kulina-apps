@@ -8,6 +8,7 @@ const StyledButton = styled.button`
   background-color: ${props => props.backgroundColor};
   color: ${theme.colors.white_2};
   font-size: ${props => props.fontSize};
+  font-weight: 600;
   height: ${props => props.height};
   margin: 24px 16px 0px 0px;
   outline: none;

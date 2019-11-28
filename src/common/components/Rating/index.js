@@ -4,14 +4,24 @@ import theme from '../../theme'
 import { Star } from '@material-ui/icons'
 
 const StyledRating = styled.div`
+  position: relative;
   padding: 8px;
   height: auto;
   color: ${theme.colors.gray_alt};
-  span {
+  div {
+    position: absolute;
     font-size: 13pt;
-    display: inline-block;
-    margin-bottom: 10px;
   }
+  margin-bottom: 10px;
+`
+
+const WrapperNumber = styled.div`
+  width: auto;
+`
+
+const WrapperRatingSvg = styled.div`
+  width: auto;
+  margin-left: 15px;
 `
 
 function Rating({ rating }) {
@@ -27,7 +37,8 @@ function Rating({ rating }) {
   }
   return (
     <StyledRating>
-      <span>{rating}</span> {TmpStar}
+      <WrapperNumber>{rating}</WrapperNumber>
+      <WrapperRatingSvg> {TmpStar}</WrapperRatingSvg>
     </StyledRating>
   )
 }
