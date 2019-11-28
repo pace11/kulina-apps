@@ -93,7 +93,7 @@ const WrapperInput = styled.div`
 
 const StyledInput = styled.input.attrs(() => ({
   type: 'text',
-  placeholder: 'isikan lokasi anda ...',
+  placeholder: 'fill in your location here ...',
 }))`
   width: 100%;
   box-sizing: border-box;
@@ -164,7 +164,7 @@ function Header({ onClick, show }) {
         )
       })
     }
-    return <p style={{ textAlign: 'center' }}>tidak ditemukan</p>
+    return <p style={{ textAlign: 'center' }}>location not found</p>
   }
 
   const searchCity = val => {
