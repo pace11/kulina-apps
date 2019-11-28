@@ -17,8 +17,8 @@
 
 ## Live 
 
-+ [x] Development `yarn start` or `npm start`
-+ [x] Production `https://zen-noyce-471054.netlify.com/` 
++ [x] Development with `yarn start` or `npm start`
++ [x] Production in https://zen-noyce-471054.netlify.com/
 
 
 ## How to start ?
