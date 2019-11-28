@@ -1,6 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ArrowBack, ExpandMore, Close } from '@material-ui/icons'
+import {
+  ArrowBack,
+  ExpandMore,
+  Close,
+  WhereToVote,
+} from '@material-ui/icons'
 import theme from '../../theme'
 import Location from '../../../__json__/location.json'
 
@@ -91,9 +96,15 @@ const WrapperInput = styled.div`
   }
 `
 
+const WrapperIconLocation = styled.div`
+  position: absolute;
+  top: 15px;
+  left: 10px;
+`
+
 const StyledInput = styled.input.attrs(() => ({
   type: 'text',
-  placeholder: 'fill in your location here ...',
+  placeholder: 'isikan lokasi anda ...',
 }))`
   width: 100%;
   box-sizing: border-box;
@@ -103,6 +114,7 @@ const StyledInput = styled.input.attrs(() => ({
   outline: none;
   color: ${theme.colors.gray_alt};
   font-size: 13pt;
+  padding-left: 30px;
 `
 
 const List = styled.div`
@@ -164,7 +176,9 @@ function Header({ onClick, show }) {
         )
       })
     }
-    return <p style={{ textAlign: 'center' }}>location not found</p>
+    return (
+      <p style={{ textAlign: 'center' }}>lokasi tidak ditemukan</p>
+    )
   }
 
   const searchCity = val => {
@@ -210,6 +224,9 @@ function Header({ onClick, show }) {
           Cek makanan yang tersedia di lokasi kamu!
         </StyledModalTitle>
         <WrapperInput>
+          <WrapperIconLocation>
+            <WhereToVote style={{ color: `${theme.colors.pink}` }} />
+          </WrapperIconLocation>
           <StyledInput
             onChange={handleValueChange}
             onFocus={handleValueChange}
